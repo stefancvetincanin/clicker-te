@@ -77,7 +77,7 @@ class App extends Component {
       return (
         <main>
           <div className="house-app">
-            <img className="house-app-loader" src={Loader} alt="Waiting for server response" width="100"/>
+            <img className="house-app-loader" src={Loader} alt="Waiting for server response" width="100" height="100"/>
           </div>
           {/* Only shows the error message if the API call catches an error */}
           <p className="house-app-error" style={{display: !this.state.apiError && "none"}}>
