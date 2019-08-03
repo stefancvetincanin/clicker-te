@@ -1,0 +1,23 @@
+@import './styles/colors';
+
+body {
+  font-family: monospace;
+}
+
+.house-app {
+  display: flex;
+  justify-content: center;
+  max-width: 64rem;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.house-app-loader {
+  padding-top: 100px;
+}
+
+.house-list {
+  flex: 1;
+  margin-right: 2rem;
+  background: $colorGray;
+}

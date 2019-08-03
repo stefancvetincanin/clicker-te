@@ -1,0 +1,18 @@
+@import './colors.scss';
+
+.house-single {
+  flex: 3;
+  padding: 1rem;  
+}
+
+.house-counter {
+  font-size: 1.2rem;
+}
+
+.house-img {
+  cursor: pointer;
+}
+
+.house-img:hover {
+  background-color: $colorGray;
+}

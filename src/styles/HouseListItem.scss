@@ -1,0 +1,20 @@
+@import './colors';
+
+.house-list-item {
+  padding: 1rem;
+  border-bottom: 1px solid $colorWhite;
+}
+
+.house-list-item:last-of-type {
+  border-bottom: none;
+}
+
+.house-list-item:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+
+.house-list-title {
+  font-size: 1.3rem;
+  margin: 0;
+}
