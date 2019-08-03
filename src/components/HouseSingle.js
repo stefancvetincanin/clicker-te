@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from './Button'
 import '../styles/HouseSingle.scss'
 
 export default function HouseSingle(props) {
@@ -10,11 +9,10 @@ export default function HouseSingle(props) {
           className="house-img"
           src={props.houseData.image}
           alt="Requested house"
-          onClick={() => { props.incrementClicker() }}
+          onClick={() => { props.incrementClicker(props.houseData.id) }}
         />
         <h2>{props.houseData.name}</h2>
-        <div className="house-counter">Clicks: {props.clicker}</div>
-        <Button action={props.resetClicker} text="Reset counter"/>
+        <div className="house-counter">Clicks: {props.houseData.count}</div>
       </div>
     </div>
   )
