@@ -1,8 +1,10 @@
 <h1>Clicker task</h1>
 
 <h2>Built using</h2>
-ReactJS
-Sass
+<ul>
+  <li>ReactJS</li>
+  <li>Sass</li>
+</ul>
 
 <h2>How to run?</h2>
 Clone the repository.
